@@ -1,8 +1,5 @@
-Eureka: 
-  Instance: 
-    prefer-ip-address:true 
-  Client: 
-    Fetch-registry:true 
-    Register-with-eureka:true 
-    Service-url: 
-      defaultZone: http://localhost:8761/eureka/
+Eureka:
+  fetch-registry: true
+  register-with-eureka: true
+  service-url:
+    defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,8 @@
+Eureka: 
+  Instance: 
+    prefer-ip-address:true 
+  Client: 
+    Fetch-registry:true 
+    Register-with-eureka:true 
+    Service-url: 
+      defaultZone: "give eurkeconfig
